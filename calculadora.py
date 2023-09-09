@@ -20,6 +20,8 @@ elif operacao == "*":
 elif operacao == "/":
      resultado = numero1 / numero2
      print(f"O resultado da divisão é : {resultado}")
+else :
+     print("Não reconheço esse valor")
 
     
     
