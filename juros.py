@@ -8,12 +8,10 @@ valor = float(input("Qual o valor que deseja calcular?"))
 
 tempo = float(input("Qual o período de tempo?"))
 
-juros = float(input("Informe a taxa de juros anual?"))
-
-juros1 = juros/100
+juros = float(input("Informe a taxa de juros anual em porcentagem ?"))
 
 
-montante = valor + (valor * juros1 * tempo)
+montante = valor + (valor * (juros/100) * tempo)
 
 print("RESULTADO")
 
