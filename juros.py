@@ -6,7 +6,7 @@ print("*******************************")
 
 valor = float(input("Qual o valor que deseja calcular?"))
 
-tempo = int(input("Qual o período de tempo?"))
+tempo = float(input("Qual o período de tempo?"))
 
 juros = float(input("Informe a taxa de juros anual?"))
 
