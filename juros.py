@@ -1,4 +1,4 @@
-# Programa para fazer conversão de Temperaturas
+# Programa para calcular taxa de juros
 
 print("*******************************")
 print("*******CALCULANDO JUROS********")
