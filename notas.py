@@ -5,7 +5,7 @@
 print("====Notas====")
 
 nota = float(input("informe sua nota de 0 a 100 ?"))
-if  nota >= 90 :
+if  nota >= 90 and nota <= 100 :
     print(f"Sua classificação é a A") 
 elif nota >= 80 and  nota <= 89:
     print(f"Sua classificação é a B") 
