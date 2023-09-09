@@ -1,6 +1,7 @@
 # Crie um programa que peça o nome, idade, peso e altura de uma pessoa. Com o peso e altura deve ser calculado o imc da pessoa. O resultado deve ser mostrado como perfil.
 
 print("Seja bem vindo ! \n")
+print("Calculo de IMC ! \n")
 
 nome = input(" Qual seu nome? ")
 
