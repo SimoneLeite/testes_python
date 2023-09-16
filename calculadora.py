@@ -1,11 +1,11 @@
 #Peça ao usuário para inserir dois números e uma operação (+, -, *, /).
 #Realize a operação e exiba o resultado.
 
-print("=======CALCULADORA SIMPLES======")
-print("================================")
+print("=======CALCULADORA SIMPLES=======")
+print("=================================")
 
-numero1 = float(input("Informe um número? "))
-numero2 = float(input("Informe um número? "))
+numero1 = float(input("Informe o primeiro número? "))
+numero2 = float(input("Informe o segundo número? "))
 operacao = input("Escolha umas das operaçoes (+, -, *, /)")
 
 if operacao == "+":
@@ -21,7 +21,7 @@ elif operacao == "/":
      resultado = numero1 / numero2
      print(f"O resultado da divisão é : {resultado}")
 else :
-     print("Não reconheço esse valor")
+     print("Opreação não reconhecida")
 
     
     
