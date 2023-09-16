@@ -4,7 +4,7 @@
 print("=======Verificação de Idade=======")
 print("==================================")
 
-idade = int(input("Informe sua idade?"))
+idade = int(input("Informe sua idade ?"))
 
 if idade >= 18:
     print("Você é de maoir!")
