@@ -6,16 +6,23 @@ print("====Notas====")
 
 nota = float(input("informe sua nota de 0 a 100: "))
 
-if  nota >= 90 and nota <= 100 :
-    print(f"Sua classificação é a A") 
-elif nota >= 80 and  nota <= 89:
-    print(f"Sua classificação é a B") 
-elif nota >= 70 and nota <= 79 :
-    print(f"Sua classificação é a C")
-elif nota >= 60 and nota <= 69 :
-    print(f"Sua classificação é a D")   
-elif nota <=60 :
-    print(f"Sua classificção é a F")     
+classificao = ''
+
+if nota >= 0 and nota <= 100:
+    if  nota >= 90:
+        classificao = "A" 
+    elif nota >= 80 and  nota <= 89:
+        classificao = "B" 
+    elif nota >= 70 and nota <= 79 :
+        classificao = "C"
+    elif nota >= 60 and nota <= 69 :
+        classificao = "D"  
+    else:
+        classificao = "F"
+    print(f"Classificação da nota: {classificao}")     
 else :
-    print("Sua nota máxima é 100")
+    print("Nota fora do parãmetro pedido ( de 0 a 100)")
+
+
+     
 
