@@ -18,10 +18,15 @@ elif operacao == "*":
      resultado = numero1 * numero2
      print(f"O resultado da subtração é :{resultado}")
 elif operacao == "/":
-     resultado = numero1 / numero2
-     print(f"O resultado da divisão é : {resultado}")
+     if numero2 == 0:
+          print("Não é possível dividir esse valor.")
+     else:     
+          resultado = numero1 / numero2
 else :
      print("Opreação não reconhecida")
+
+if resultado != '':
+     print(f"O resultado é: {resultado}")
 
     
     
